@@ -13,7 +13,7 @@ namespace a0 {
         node.innerHTML += "Hola "; // angezeigter Text
         node.innerHTML += i; // Variable, um Eingabe des Nutzers anzuzeigen
         node.innerHTML += "! Es freut mich, dass du hier bist."; // angezeigter Text
-        console.log("Hola ",i,"! Es freut mich, dass du hier bist."); // Eingabe in Konsole
+        console.log("Hola ",i,"! Es freut mich, dass du hier bist ."); // Eingabe in Konsole
         }
     document.addEventListener("DOMContentLoaded", main);
 }
