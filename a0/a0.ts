@@ -1,7 +1,7 @@
 /* Aufgabe 0
 Name: Kristian Basic
 Matrikel: 259150
-Datum: 05.10.2018
+Datum: 07.10.2018
 Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. 
 Er wurde nicht kopiert und auch nicht diktiert. */
 
@@ -12,8 +12,8 @@ namespace a0 {
         var node: any = document.getElementById("connecthtml"); // Schnittstelle HTML Dokument
         node.innerHTML += "Hola "; // angezeigter Text
         node.innerHTML += i; // Variable, um Eingabe des Nutzers anzuzeigen
-        node.innerHTML += ", freut mich, dass du hier bist."; // angezeigter Text
-        console.log("Hola ",i,", schön dich hier zu sehen!"); // Eingabe in Konsole
+        node.innerHTML += "! Es freut mich, dass du hier bist."; // angezeigter Text
+        console.log("Hola ",i,"! Es freut mich, dass du hier bist."); // Eingabe in Konsole
         }
     document.addEventListener("DOMContentLoaded", main);
 }
