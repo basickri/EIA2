@@ -6,7 +6,6 @@ Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe.
 Er wurde nicht kopiert und auch nicht diktiert. */
 var a0;
 (function (a0) {
-    var i = "";
     function main() {
         var i = prompt("Wie heisst du?"); // Anzeige der Promptbox + eingefügter Text
         var node = document.getElementById("connecthtml"); // Schnittstelle HTML Dokument
