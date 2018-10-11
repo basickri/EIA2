@@ -7,7 +7,7 @@ Er wurde nicht kopiert und auch nicht diktiert. */
 
 namespace a0 {
     
-    function main() {
+    function main(): void {
         var i: string = prompt("Wie heisst du?"); // Anzeige der Promptbox + eingefügter Text
         var node: HTMLElement = document.getElementById("connecthtml"); // Schnittstelle HTML Dokument
         node.innerHTML += "Hola "; // angezeigter Text
